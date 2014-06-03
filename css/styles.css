@@ -1,0 +1,29 @@
+body{
+	padding-top: 50px; /* sticky header */
+	min-height: 2000px;
+}
+
+.navbar-default{
+	background-color: #3b83ca;
+	background-color: rgba(59, 131, 202, 0.8);
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a{
+	color: #fff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active{
+	color: #333;
+}
+
+.text-primary-dark{
+	color: #205484;
+}
+
+.bg-primary-dark{
+	background-color: #205484;
+	color: white;
+}
