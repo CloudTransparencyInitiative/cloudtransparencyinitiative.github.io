@@ -15,94 +15,162 @@
 
 		<!-- Custom Styles -->
 		<link href="css/styles.css" rel="stylesheet">
-		<!-- see http://getbootstrap.com/examples/jumbotron-narrow/ ? -->
-		<!-- see http://getbootstrap.com/examples/navbar-fixed-top/ ? -->
 		<!-- see http://getbootstrap.com/examples/blog/ ? -->
 		<!-- see http://getbootstrap.com/getting-started/#accessibility -->
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
 		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
 	</head>
 	<body>
+		<a href="#content" class="sr-only">Skip to main content</a>
 		<!-- Fixed navbar -->
-		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#"><strong>Cloud Transparency Initiative</strong></a>
+		<nav>
+			<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#the-problem"><strong>Cloud Transparency Initiative</strong></a>
+					</div>
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="#the-problem">The Problem</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Issues & Solutions<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Issue #1</a></li>
+									<li><a href="#">Issue #2</a></li>
+									<li><a href="#">Issue #3</a></li>
+								</ul>
+							</li>
+							<li><a href="#additional-resources">Additional Resources</a></li>
+						</ul>
+					</div><!--/.nav-collapse -->
 				</div>
-				<div class="navbar-collapse collapse">
-					<!-- <ul class="nav navbar-nav">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#contact">Contact</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Action</a></li>
-								<li><a href="#">Another action</a></li>
-								<li><a href="#">Something else here</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header">Nav header</li>
-								<li><a href="#">Separated link</a></li>
-								<li><a href="#">One more separated link</a></li>
-							</ul>
-						</li>
-					</ul> -->
-					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="#">Goal</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Issues & Solutions <b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Issue #1</a></li>
-								<li><a href="#">Issue #2</a></li>
-								<li><a href="#">Issue #3</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Additional Resources</a></li>
-					</ul>
-				</div><!--/.nav-collapse -->
 			</div>
-		</div>
+		</nav>
 		
-		<div class="jumbotron">
+		<main id="content">
+			<div class="jumbotron" id="the-problem">
+				<div class="container">
+					<h1><span class="text-primary-dark">Cloud Transparency Initiative</span></h1>
+					<div class="row">
+						<div class="col-md-4">
+							<h2>About Us</h2>
+							<p>
+								The <strong>Cloud Transparency Initiative</strong> is a product of the University of Washington's iSchool Capstone Program, created by students Jordan&nbsp;Atwood and Doug&nbsp;Wynkoop.
+							</p>
+						</div>
+						<div class="col-md-4">
+							<h2>The Problem</h2>
+							<p>
+								Cloud services can be flaky or, more importantly, insecure for companies to use. Lorem ipsum dolor.
+							</p>
+						</div>
+						<div class="col-md-4">
+							<h2>Our Solution</h2>
+							<p>
+								Our intention in developing this website was to create a centralized resource suitable for small and medium-sized businesses to reference to demystify the process of moving IT solutions to the cloud.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="container">
-				<h1><span class="text-primary-dark">Cloud Transparency Initiative</span></h1>
+				<h1 class="page-header">Content Goes Here</h1>
+				<p>
+					In suscipit facilisis nibh. Phasellus nec mi aliquam, luctus massa id, vulputate justo. Vivamus vestibulum, justo nec blandit hendrerit, massa felis consequat orci, at dictum velit odio sit amet libero. Suspendisse quis nulla accumsan, venenatis libero ac, vestibulum urna. Praesent vel nisl bibendum, placerat sem in, congue lorem. Phasellus massa ligula, ullamcorper eget libero et, aliquam condimentum eros. In non condimentum lectus. Duis dictum, elit quis elementum vulputate, sapien erat venenatis mauris, id faucibus arcu risus non tellus. Curabitur vel felis placerat, molestie ipsum sed, blandit sapien. Aliquam et sem tempus, auctor nibh sit amet, sollicitudin magna. Proin nisl nisl, rutrum quis arcu ac, malesuada tempor augue. Donec rutrum egestas lectus, id elementum arcu sodales ac. Quisque sed gravida quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+				</p>
+				<p>
+					Donec quis imperdiet lorem. Quisque tincidunt, odio cursus scelerisque lacinia, libero justo commodo sapien, sed adipiscing augue eros in justo. Mauris ligula sapien, pellentesque eget tincidunt malesuada, imperdiet in metus. Sed elementum, nisi ut euismod dapibus, nunc enim pulvinar mi, at vehicula eros nunc vitae lacus. Aenean luctus eros et pharetra blandit. Nam quis tortor pulvinar, interdum mauris sed, dictum risus. Curabitur at consectetur turpis. Donec metus ante, bibendum ut venenatis a, vestibulum sit amet turpis. Ut vel nunc interdum, fermentum est eget, varius lacus. Sed ullamcorper libero quis tortor ultricies hendrerit.
+				</p>
+				<p>
+					Nunc a ligula elementum, adipiscing enim id, congue elit. Proin quis magna non est mollis ultrices condimentum gravida metus. Mauris orci tellus, porta sit amet viverra a, porttitor in nunc. Quisque vitae tempor felis, vitae venenatis libero. Proin in enim iaculis, imperdiet sem vel, iaculis massa. Aenean lectus lorem, tincidunt in suscipit quis, bibendum id leo. Phasellus sit amet ligula eget lectus ultricies hendrerit a sit amet sem. Nulla posuere tincidunt posuere. Nunc eu suscipit sapien. Etiam vel urna hendrerit, tempus arcu nec, pellentesque tortor. Nam ut neque volutpat, convallis nisl ac, vehicula lorem. Nam eget neque semper, volutpat nulla a, interdum orci.
+				</p>
+				<hr>
+				<div class="row">
+					<div class="col-md-6">
+						<p>
+							Duis sed nisl id tortor malesuada imperdiet. Vestibulum molestie enim vitae sem ultrices pulvinar. Maecenas id elit sapien. Vivamus eget egestas nibh. Curabitur sodales sit amet nisl non imperdiet. Aenean ultrices erat dui, nec rutrum sapien ullamcorper vitae. Fusce aliquet ante dui, sit amet vestibulum urna malesuada eget. Nunc fermentum nisi urna, sit amet lacinia augue vestibulum vel. Donec sodales libero sed semper dictum. Vivamus ultrices hendrerit mi, non varius nulla. Duis imperdiet eros sem, ut eleifend quam luctus quis. Sed scelerisque, nisl eget facilisis posuere, lacus ipsum aliquam mi, eu pretium ligula arcu eu massa. Curabitur at rhoncus diam, a viverra risus. Aliquam pharetra nunc in lectus suscipit, sed pellentesque leo ornare.
+						</p>
+					</div>
+					<div class="col-md-6">
+						<p>
+							Phasellus ac orci luctus risus ullamcorper mollis. Nunc rutrum vitae mauris at pulvinar. Nulla at blandit odio, quis lacinia tortor. Phasellus porta sem sollicitudin erat feugiat, ut ultricies felis luctus. Phasellus euismod rutrum leo, ut ullamcorper metus. Integer eget purus tortor. Vivamus neque ante, venenatis vel sollicitudin sed, malesuada quis magna. Fusce id rutrum erat. Nam porttitor metus risus, viverra malesuada erat tincidunt nec. Phasellus non mollis metus. Proin ante justo, imperdiet nec tortor condimentum, cursus sollicitudin ipsum. Curabitur quis lorem ac nulla vulputate suscipit sed sed tortor. Sed interdum mi imperdiet, consectetur nibh eget, lacinia risus. Duis posuere nunc dolor, congue vulputate lectus fermentum eget. Integer hendrerit justo at vulputate tempus.
+						</p>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-md-8">
+						<p>
+							Sed vulputate feugiat mauris, vitae condimentum turpis euismod sed. Aenean consequat nec nibh ac commodo. Vivamus ipsum felis, tempus eget nibh non, placerat dictum nulla. Suspendisse sit amet pharetra purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer pretium erat dui, id lobortis leo venenatis a. Integer nec dui egestas ligula congue rhoncus. Ut mollis dui vel tempor placerat. Integer porttitor mollis nibh. In tellus massa, porta et est quis, luctus iaculis tellus. Curabitur molestie mi rutrum augue faucibus, nec porttitor massa semper. Etiam at turpis eu velit pharetra consectetur feugiat ac ipsum. Nullam at ante vitae mauris vulputate facilisis. Vestibulum quis venenatis purus, non fermentum justo. Aenean at porttitor tortor, vitae vehicula justo.
+						</p>
+					</div>
+					<div class="col-md-4">
+						<p>
+							Phasellus ut volutpat eros. Fusce erat ipsum, bibendum quis justo sed, ullamcorper vulputate lacus. Vivamus dui tellus, vulputate in feugiat nec, vehicula sit amet lorem. Ut ut ante eros. Morbi felis turpis, tempus fermentum vulputate rutrum, laoreet ac quam. Etiam pellentesque sodales ante, laoreet interdum felis pulvinar cursus. Morbi pellentesque nulla felis, eu viverra lacus mollis eget. Cras imperdiet eros a cursus adipiscing.
+						</p>
+					</div>
+				</div>
+				<hr>
 				<div class="row">
 					<div class="col-md-4">
-						<h2>About Us</h2>
 						<p>
-							The <strong>Cloud Transparency Initiative</strong> is a product of the University of Washington's iSchool Capstone Program, created by students Jordan Atwood and Doug Wynkoop.
+							Phasellus ut volutpat eros. Fusce erat ipsum, bibendum quis justo sed, ullamcorper vulputate lacus. Vivamus dui tellus, vulputate in feugiat nec, vehicula sit amet lorem. Ut ut ante eros. Morbi felis turpis, tempus fermentum vulputate rutrum, laoreet ac quam. Etiam pellentesque sodales ante, laoreet interdum felis pulvinar cursus. Morbi pellentesque nulla felis, eu viverra lacus mollis eget. Cras imperdiet eros a cursus adipiscing.
 						</p>
 					</div>
-					<div class="col-md-4">
-						<h2>The Problem</h2>
+					<div class="col-md-8">
 						<p>
-							Cloud services can be flaky or, more importantly, insecure for companies to use. Lorem ipsum dolor.
-						</p>
-					</div>
-					<div class="col-md-4">
-						<h2>Our Solution</h2>
-						<p>
-							Our intention in developing this website was to create a centralized resource suitable for small and medium-sized businesses to reference to demystify the process of moving IT solutions to the cloud.
+							Sed vulputate feugiat mauris, vitae condimentum turpis euismod sed. Aenean consequat nec nibh ac commodo. Vivamus ipsum felis, tempus eget nibh non, placerat dictum nulla. Suspendisse sit amet pharetra purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer pretium erat dui, id lobortis leo venenatis a. Integer nec dui egestas ligula congue rhoncus. Ut mollis dui vel tempor placerat. Integer porttitor mollis nibh. In tellus massa, porta et est quis, luctus iaculis tellus. Curabitur molestie mi rutrum augue faucibus, nec porttitor massa semper. Etiam at turpis eu velit pharetra consectetur feugiat ac ipsum. Nullam at ante vitae mauris vulputate facilisis. Vestibulum quis venenatis purus, non fermentum justo. Aenean at porttitor tortor, vitae vehicula justo.
 						</p>
 					</div>
 				</div>
 			</div>
-		</div>
+			<footer>
+				<div class="footer" id="additional-resources">
+					<div class="container">
+						<h1>Additional Resources</h1>
+						<div class="row">
+							<div class="col-md-4">
+								<h2>One</h2>
+								<p>
+									Cras id ligula ut neque euismod aliquet. Aliquam vitae diam id est fringilla ullamcorper. Mauris iaculis est ac elementum cursus. Aenean hendrerit, tortor sit amet iaculis aliquam, magna orci lacinia quam, eu porttitor sem leo nec justo. Nunc dignissim diam quis erat vehicula pharetra. Sed blandit neque a felis ultrices ultricies.
+								</p>
+							</div>
+							<div class="col-md-4">
+								<h2>Two</h2>
+								<p>
+									Aliquam tristique dui nunc, sed ultricies sem blandit sit amet. Duis porta magna laoreet, placerat arcu sed, lobortis ante. Etiam non porta nibh. Pellentesque dignissim porttitor erat, ut imperdiet quam pulvinar vitae. Sed tortor urna, pretium ut elementum ac, feugiat ac ante.
+								</p>
+							</div>
+							<div class="col-md-4">
+								<h2>Three</h2>
+								<p>
+									Vestibulum ultrices est at massa imperdiet, nec venenatis lacus adipiscing. In lorem est, imperdiet non urna id, condimentum aliquet dolor. Nam id tincidunt justo. Proin sit amet erat magna. Vestibulum aliquam nec nunc a facilisis.
+								</p>
+							</div>
+						</div>
+						<hr>
+						<p> <!-- this could be updated with Jekyll in the future -->
+							Last updated June 2014, by Jordan, Doug
+						</p>
+					</div>
+				</div>
+			</footer>
+		</main>
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/scripts.js"></script>
+		<!-- Include all compiled bootstrap plugins -->
 		<script src="js/bootstrap.min.js"></script>
 	</body>
 </html>

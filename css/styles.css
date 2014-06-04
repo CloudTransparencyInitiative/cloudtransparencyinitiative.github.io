@@ -1,13 +1,26 @@
 body{
 	padding-top: 50px; /* sticky header */
-	min-height: 2000px;
+	/* min-height: 2000px; testing for sticky header */
 }
 
+.text-primary-dark{
+	color: #205484;
+}
+
+.bg-primary-dark{
+	background-color: #205484;
+	color: #fff;
+}
+
+/*** navbar colors ***/
+
+/* background */
 .navbar-default{
 	background-color: #3b83ca;
-	background-color: rgba(59, 131, 202, 0.8);
+	background-color: rgba(59, 131, 202, 0.9);
 }
 
+/* text */
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a{
 	color: #fff;
@@ -19,11 +32,24 @@ body{
 	color: #333;
 }
 
-.text-primary-dark{
-	color: #205484;
+@media (max-width: 767px){
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a{
+		color: #eee;
+	}
 }
 
-.bg-primary-dark{
-	background-color: #205484;
+/* cell backgrounds and nav-button bar color */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+
+/*** custom footer styles ***/
+
+.footer{
+	background-color: #333;
 	color: white;
+	margin-top: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
