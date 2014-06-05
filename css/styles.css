@@ -3,6 +3,10 @@ body{
 	/* min-height: 2000px; testing for sticky header */
 }
 
+dl, dd{
+	margin-left: 20px;
+}
+
 .text-primary-dark{
 	color: #205484;
 }
